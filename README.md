@@ -24,6 +24,12 @@
 -Update store with trailer video data
 -Emeded the youtube video and mak it autoplay and mute
 -Added tailwind css classes to make main container look awesome
+- Build secondery component
+- Build Movie list 
+- Build Movie card
+- found out image cdn
+- Made the browse page better with taiwind css
+- custom hooks for popular, top rated, and upcoming movies 
 
 # Features
 - Login/Sinup page
