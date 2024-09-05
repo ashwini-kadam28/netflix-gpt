@@ -15,6 +15,15 @@
 -Implemented signout
 -updated profile
 -unsubscribe to onAuthStateChanged
+-Register TMDB API create an app & get ascess
+-Get Data from TMDB now playing movies List API
+-Custom hook for now playing movies
+-Update store with movies data 
+-Planning for main container and secondery container
+-Fetch data for trailer video
+-Update store with trailer video data
+-Emeded the youtube video and mak it autoplay and mute
+-Added tailwind css classes to make main container look awesome
 
 # Features
 - Login/Sinup page

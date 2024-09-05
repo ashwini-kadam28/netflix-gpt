@@ -9,7 +9,7 @@ import { addUser, removeUser } from './utils/userSlice';
 const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  // const user = useSelector((store) => store.user);
+   const user = useSelector((store) => store.user);
 
   useEffect(() => {
 
@@ -39,7 +39,7 @@ const Header = () => {
 
   return (
     <div className='bg-black '>
-      <img className="w-44 " src={LOGO} alt="Netflix" />
+      {/* <img className="w-44 " src={LOGO} alt="Netflix" /> */}
 
 
 
