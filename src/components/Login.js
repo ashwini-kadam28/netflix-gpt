@@ -28,8 +28,7 @@ const Login = () => {
             createUserWithEmailAndPassword(auth, email.current.value, password.current.value)
                 .then((userCredential) => {
                     // Signed up 
-                    const user = userCredential.user;
-                    console.log("", user);
+                    const user = userCredential.user;                
                     updateProfile(user, {
                         displayName: name.current.value, photoURL: "https://example.com/jane-q-user/profile.jpg"
                     }).then(() => {
@@ -61,8 +60,7 @@ const Login = () => {
                 .then((userCredential) => {
                     // Signed in 
                     const user = userCredential.user;
-                    console.log("user", user);
-
+                   
                 })
                 .catch((error) => {
                     const errorCode = error.code;

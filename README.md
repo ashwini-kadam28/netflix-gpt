@@ -30,6 +30,9 @@
 - found out image cdn
 - Made the browse page better with taiwind css
 - custom hooks for popular, top rated, and upcoming movies 
+- Added Gptserachbar
+- added multilaguage support
+- 
 
 # Features
 - Login/Sinup page

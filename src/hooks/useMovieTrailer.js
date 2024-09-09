@@ -11,7 +11,6 @@ const useMovieTrailer = (movieId) =>{
     const jsondata = await data.json();
     const filterData = jsondata?.results.filter((video) => video.type === "Trailer");
     const trailer = filterData.length ? filterData[0] : jsondata.results[0]
-    console.log("jsondata",jsondata,trailer[0])
     disptach(addTrailerVideo(trailer))
     }
 
